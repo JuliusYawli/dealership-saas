@@ -11,7 +11,8 @@
   "dependencies": {
     "next": "14.2.5",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "@prisma/client": "5.18.0"
   },
   "devDependencies": {
     "@types/node": "20.14.12",
@@ -19,6 +20,13 @@
     "@types/react-dom": "18.3.0",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.5",
+    "prisma": "5.18.0",
     "typescript": "5.5.4"
+  },
+  "allowScripts": {
+    "@prisma/client@5.18.0": true,
+    "@prisma/engines@5.18.0": true,
+    "prisma@5.18.0": true,
+    "unrs-resolver@1.12.2": true
   }
 }
